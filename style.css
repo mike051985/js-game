@@ -7,14 +7,15 @@ body {
 .container {
   max-width: 600px;
   margin: 0 auto;
-  border: 3px solid #ffffff;
+  border: 5px solid #ffffff;
   border-radius: 5px;
-  margin-top: 10em;
+  margin-top: 6em;
 }
 
 .title {
   font-size: 2.5rem;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .move-icon {
@@ -28,7 +29,7 @@ body {
 
 .move-button {
   background-color: transparent;
-  border: 3px solid white;
+  border: 3px solid #ffffff;
   width: 120px;
   height: 120px;
   border-radius: 60px;
@@ -36,20 +37,34 @@ body {
   cursor: pointer;
 }
 
+
+.game-result {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .result {
   font-size: 25px;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-right: 40px;
 }
 
-.score {
-  margin-top: 60px;
+.js-moves {
+  margin-right: 40px;
 }
 
 .reset-score-button {
-  background-color: white;
+  background-color: #ffffff;
   border: none;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: bold;
   padding: 8px 15px;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 5px;
 }
