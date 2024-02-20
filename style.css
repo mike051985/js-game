@@ -40,20 +40,21 @@ body {
 
 .game-result {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .result {
   font-size: 25px;
   font-weight: bold;
-  margin-top: 40px;
-  margin-right: 40px;
+  margin-top: 30px;
 }
 
 .js-moves {
-  margin-right: 40px;
+  margin-top: -3px;
 }
 
 .reset-score-button {
@@ -67,4 +68,17 @@ body {
   margin: 0 auto;
   margin-bottom: 50px;
   border-radius: 5px;
+}
+
+/*Media Queries */
+@media (max-width: 450px) {
+  .title {
+    font-size: 1.9rem;
+  }
+
+  .move-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+  }
 }

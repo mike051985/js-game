@@ -15,17 +15,17 @@
       <button 
       onclick="playGame('rock');"
       class="move-button">
-        <img src="https://i.postimg.cc/SK0NG3ng/rock-emoji.png" class="move-icon">
+        <img src="images/rock-emoji.png" class="move-icon">
       </button>
       <button 
       onclick="playGame('paper');"
       class="move-button">
-        <img src="https://i.postimg.cc/52cN1Df8/paper-emoji.png" class="move-icon">
+        <img src="images/paper-emoji.png" class="move-icon">
       </button>
       <button 
       onclick="playGame('scissors');"
       class="move-button">
-        <img src="https://i.postimg.cc/PNnx67xb/scissors-emoji.png" class="move-icon">
+        <img src="images/scissors-emoji.png" class="move-icon">
       </button>
     </div>
     
@@ -42,6 +42,7 @@
       score.ties = 0;
       localStorage.removeItem('score');
       updateScoreElement();
+      location.reload();
     "
     class="reset-score-button">Reset Score</button>
   </div>
